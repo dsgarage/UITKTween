@@ -154,6 +154,8 @@ namespace DSGarage.UITKTween
         public new Sequence OnComplete(Action callback) { base.OnComplete(callback); return this; }
         public new Sequence OnKill(Action callback) { base.OnKill(callback); return this; }
         public new Sequence OnStepComplete(Action callback) { base.OnStepComplete(callback); return this; }
+        public new Sequence OnPause(Action callback) { base.OnPause(callback); return this; }
+        public new Sequence OnRewind(Action callback) { base.OnRewind(callback); return this; }
 
         // === Internal ===
 

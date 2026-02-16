@@ -131,6 +131,7 @@ namespace DSGarage.UITKTween
             TweenPool.Warmup<Tweener<Vector2>>(tweenerCapacity);
             TweenPool.Warmup<Tweener<Vector3>>(tweenerCapacity);
             TweenPool.Warmup<Tweener<Color>>(tweenerCapacity);
+            TweenPool.Warmup<Tweener<Quaternion>>(tweenerCapacity);
             TweenPool.Warmup<Sequence>(sequenceCapacity);
         }
 

@@ -55,6 +55,8 @@ namespace DSGarage.UITKTween
         public new Tweener<T> OnComplete(Action callback) { base.OnComplete(callback); return this; }
         public new Tweener<T> OnKill(Action callback) { base.OnKill(callback); return this; }
         public new Tweener<T> OnStepComplete(Action callback) { base.OnStepComplete(callback); return this; }
+        public new Tweener<T> OnPause(Action callback) { base.OnPause(callback); return this; }
+        public new Tweener<T> OnRewind(Action callback) { base.OnRewind(callback); return this; }
 
         // === Internal ===
 
