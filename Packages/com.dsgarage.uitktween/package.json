@@ -1,0 +1,44 @@
+{
+  "name": "com.dsgarage.uitktween",
+  "version": "0.1.0",
+  "displayName": "UITKTween",
+  "description": "High-performance tweening library for Unity UI Toolkit. DOTween-inspired fluent API with 31 easing functions, sequences, object pooling, and auto-lifecycle management for VisualElement.",
+  "unity": "6000.0",
+  "keywords": [
+    "uitoolkit",
+    "tween",
+    "animation",
+    "ui",
+    "visual-element",
+    "easing"
+  ],
+  "author": {
+    "name": "dsgarage",
+    "email": "dsgarage@gmail.com",
+    "url": "https://github.com/dsgarage"
+  },
+  "type": "library",
+  "dependencies": {},
+  "samples": [
+    {
+      "displayName": "Basic Usage",
+      "description": "Basic tween examples: fade, move, scale, rotate.",
+      "path": "Samples~/BasicUsage"
+    },
+    {
+      "displayName": "Sequence Demo",
+      "description": "Sequence and complex animation chains.",
+      "path": "Samples~/SequenceDemo"
+    },
+    {
+      "displayName": "Easing Showcase",
+      "description": "Visual showcase of all 31 easing functions.",
+      "path": "Samples~/EasingShowcase"
+    },
+    {
+      "displayName": "Advanced Effects",
+      "description": "Punch, Shake, and custom effects.",
+      "path": "Samples~/AdvancedEffects"
+    }
+  ]
+}
