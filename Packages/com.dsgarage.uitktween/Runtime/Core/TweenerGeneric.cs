@@ -80,14 +80,14 @@ namespace DSGarage.UITKTween
             }
         }
 
-        protected override void ApplyValue(float easedTime)
+        internal override void ApplyValue(float easedTime)
         {
             if (evaluateFunc == null || setter == null) return;
             T value = evaluateFunc(startValue, endValue, easedTime);
             setter(value);
         }
 
-        protected override void OnIncrementalLoop()
+        internal override void OnIncrementalLoop()
         {
             if (addFunc != null && subtractFunc != null)
             {

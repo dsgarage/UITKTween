@@ -339,8 +339,8 @@ namespace DSGarage.UITKTween
         }
 
         internal virtual void Startup() { }
-        protected abstract void ApplyValue(float easedTime);
-        protected virtual void OnIncrementalLoop() { }
+        internal abstract void ApplyValue(float easedTime);
+        internal virtual void OnIncrementalLoop() { }
 
         internal virtual void Reset()
         {

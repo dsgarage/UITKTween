@@ -173,7 +173,7 @@ namespace DSGarage.UITKTween
             }
         }
 
-        protected override void ApplyValue(float easedTime)
+        internal override void ApplyValue(float easedTime)
         {
             // Sequence は totalDuration に基づいてシーケンス全体の位置を計算
             float position = easedTime * totalDuration;

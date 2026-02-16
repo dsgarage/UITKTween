@@ -32,7 +32,7 @@ namespace DSGarage.UITKTween.Internal
         internal static Vector2 GetTranslate(VisualElement element)
         {
             var t = element.resolvedStyle.translate;
-            return new Vector2(t.x, t.y);
+            return new Vector2(t.x.value, t.y.value);
         }
 
         // === Scale の取得 ===

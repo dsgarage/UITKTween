@@ -70,13 +70,7 @@ namespace DSGarage.UITKTween.Editor
 
         private void DrawTweenList()
         {
-            // TweenManager の内部リストにアクセスするため、リフレクションを使用
-            var field = typeof(TweenManager).GetField("activeTweens",
-                System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
-
-            if (field == null) return;
-
-            var tweens = field.GetValue(null) as System.Collections.Generic.List<Tween>;
+            var tweens = TweenManager.ActiveTweens;
             if (tweens == null || tweens.Count == 0)
             {
                 EditorGUILayout.LabelField("アクティブな Tween はありません。");

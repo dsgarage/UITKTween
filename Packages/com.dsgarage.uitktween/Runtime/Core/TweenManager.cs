@@ -14,6 +14,7 @@ namespace DSGarage.UITKTween
         private static bool isUpdating;
 
         internal static int ActiveCount => activeTweens.Count;
+        internal static System.Collections.Generic.IReadOnlyList<Tween> ActiveTweens => activeTweens;
 
         internal static void Add(Tween tween)
         {
